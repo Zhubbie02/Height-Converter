@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(23, 32, 42);  
+    justify-items: center;
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+h1 {
+    text-align: center;
+    color: rgb(236, 240, 241);
+}
+input {
+    background-color: rgb(236, 239, 241);
+    border-radius: 18px;
+    height: 4.5rem;
+    width: 100%;
+    text-align: justify;
+    font-size:xx-large;
+    border: 0.5px black solid;
+}
+.cmOutput {
+    display: block;
+    border: 1px black solid;
+    margin-top: 20px;
+    background-color: rgb(234, 236, 238);
+    height: 3.5rem;
+    text-align:left;
+    font-size:xx-large;
+    padding-top: 15px;
+    border-radius: 18px;
+}
+.inchOutput {
+    display: block;
+    border: 1px black solid;
+    margin-top: 10px;
+    background-color: rgb(213, 216, 220);
+    height: 3.5rem;
+    text-align: justify;
+    font-size:xx-large;
+    padding-top: 15px;
+    border-radius: 15px;
+}
+.ftOutput {
+    display: block;
+    border: 1px black solid;
+    margin-top: 10px;
+    height: 3.5rem;
+    text-align: justify;
+    padding-top: 15px;
+    font-size:xx-large;
+    background-color:rgb(171, 178, 185);
+    border-radius: 15px;
+}
+h4{
+    display: inline;
+}
+#cm, #inch, #ft{
+    display: inline;
+}
